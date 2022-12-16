@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hallo Kyra :)</title>
+    <link href="../static/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"
+          th:href="@{/node_modules/bootstrap/dist/css/bootstrap.min.css}">
+</head>
+<body>
+
+<div class="container">
+    <div class="row pt-3">
+        <div class="col text-center">
+            <form th:action="@{/ichliebedichkyra}" method="post">
+                <button class="btn btn-outline-danger" type="submit">Klick hier, um Liebe zu verspüren :)</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
